@@ -1,0 +1,8 @@
+{
+  "rewrites":[
+    {
+      "source": "uploads/:match*",
+      "destination": "http://113.31.153.214:1337/uploads/:match*"
+    }
+  ]
+}
