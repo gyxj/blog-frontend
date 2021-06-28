@@ -79,7 +79,7 @@ export default {
         try {
           await axios({
             method: 'POST',
-            url: 'http://113.31.153.214:1337/contacts',
+            url: this.GRIDSOME_API_URL + '/contacts',
             data: this.formData
           })
           window.alert('发送成功')
