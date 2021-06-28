@@ -41,7 +41,7 @@
             </div>
         </div>
     </div>
-    <img :src="GRIDSOME_API_URL + general.node.bgi.url">
+    <img :src="general.node.bgi.url">
   </Layout>
 </template>
 
